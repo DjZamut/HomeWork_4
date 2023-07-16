@@ -6,9 +6,8 @@
 Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int len = Length(a);
-Console.Write($"Сумма цифр в числе { a} равно: { Sum(a, len)}");
+Console.Write($"Сумма цифр в числе { a} равно: { Sum(a, len)}"); // Подсчет количества символов в числе
 
-// Подсчет количества символов в числе
 int Length(int a)
 {
     int index = 0;
